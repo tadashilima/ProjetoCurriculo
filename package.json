@@ -1,0 +1,13 @@
+{
+  "name": "meu-curriculo",
+  "version": "1.0.0",
+  "description": "Site de modelos de currículo profissional",
+  "scripts": {
+    "start": "servor --reload",
+    "build": "mkdir -p dist && cp -r *.html *.css *.js dist/"
+  },
+  "dependencies": {
+    "servor": "^4.0.2",
+    "swiper": "^11.0.5"
+  }
+}

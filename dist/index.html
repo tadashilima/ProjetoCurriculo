@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Meu Currículo - Modelos Profissionais de Currículo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Modelos profissionais de currículo que destacam seu potencial" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>Meu Currículo</h1>
+        <p class="tagline">Destaque seu potencial profissional</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="modelos" id="modelos">
+        <div class="container">
+          <h2>Nossos Modelos</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="modelo-card">
+                  <img src="https://picsum.photos/400/566" alt="Modelo Executivo" />
+                  <h3>Modelo Executivo</h3>
+                  <p>Ideal para profissionais experientes</p>
+                  <button class="btn-primary">Ver Detalhes</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="modelo-card">
+                  <img src="https://picsum.photos/400/567" alt="Modelo Criativo" />
+                  <h3>Modelo Criativo</h3>
+                  <p>Perfeito para áreas criativas</p>
+                  <button class="btn-primary">Ver Detalhes</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="modelo-card">
+                  <img src="https://picsum.photos/400/568" alt="Modelo Minimalista" />
+                  <h3>Modelo Minimalista</h3>
+                  <p>Clean e direto ao ponto</p>
+                  <button class="btn-primary">Ver Detalhes</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="depoimentos" id="depoimentos">
+        <div class="container">
+          <h2>Depoimentos</h2>
+          <div class="depoimentos-grid">
+            <div class="depoimento-card">
+              <div class="estrelas">★★★★★</div>
+              <p>"Consegui meu emprego dos sonhos com o currículo da CurrículoPro. Design profissional e fácil de personalizar!"</p>
+              <footer>
+                <img src="https://picsum.photos/50/50" alt="Ana Silva" class="avatar" />
+                <div class="info">
+                  <strong>Ana Silva</strong>
+                  <span>Gerente de Marketing</span>
+                </div>
+              </footer>
+            </div>
+            <div class="depoimento-card">
+              <div class="estrelas">★★★★★</div>
+              <p>"O melhor investimento que fiz na minha carreira. O modelo escolhido chamou atenção dos recrutadores."</p>
+              <footer>
+                <img src="https://picsum.photos/51/51" alt="Pedro Santos" class="avatar" />
+                <div class="info">
+                  <strong>Pedro Santos</strong>
+                  <span>Desenvolvedor Senior</span>
+                </div>
+              </footer>
+            </div>
+            <div class="depoimento-card">
+              <div class="estrelas">★★★★★</div>
+              <p>"Excelente serviço! O suporte ao cliente é incrível e os modelos são muito profissionais."</p>
+              <footer>
+                <img src="https://picsum.photos/52/52" alt="Maria Oliveira" class="avatar" />
+                <div class="info">
+                  <strong>Maria Oliveira</strong>
+                  <span>Arquiteta</span>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 CurrículoPro. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <div class="modal" id="modeloModal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img id="modalImage" src="" alt="Modelo em tamanho grande" />
+      </div>
+    </div>
+  </body>
+</html>
